@@ -31,7 +31,12 @@
     --fs-base: 1rem;
     --fs-large: 1.25rem;
     --fs-xl: 1.5rem;
-    --fs-2xl: 2.5rem
+    --fs-2xl: 2.5rem;
+
+    --py-base: 1rem;
+    --py-large: 1.5rem;
+    --py-xl: 3rem;
+    --px-lg: 1.5rem;
 }
 
 html {
@@ -42,42 +47,49 @@ html {
     color: var(--text-color-primary);
 }
 
-body{
+body {
     background: var(--background-color);
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
     line-height: 1.2;
     color: var(--text-color-primary);
     font-weight: var(--fw-bold);
     letter-spacing: -0.04em;
 }
 
-h1{
+h1 {
     font-size: var(--fs-2xl);
 }
 
-h2{
+h2 {
     font-size: var(--fs-xl);
 }
 
-h3{
+h3 {
     font-size: var(--fs-large);
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-ul[role="list"]{
+ul[role="list"] {
     list-style: none;
 }
 
-@media (width >= 80em){
-    :root{
+@media (width >=80em) {
+    :root {
         --fs-large: 2rem;
         --fs-xl: 3rem;
-        --fs-2xl: 4rem
+        --fs-2xl: 4rem;
+
+        --py-base: 1.5rem;
+        --py-large: 2.5rem;
+        --py-xl: 5rem;
+        --px-lg: 2rem;
     }
 }

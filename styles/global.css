@@ -51,6 +51,7 @@ html {
 
 body {
     background: var(--background-color);
+    overflow-x: hidden;
 }
 
 h1,
